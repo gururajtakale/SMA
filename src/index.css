@@ -1,0 +1,45 @@
+/* .footer-container {
+    width: 410px; /* Adjust as needed */
+    /* background-color: black; */
+    /* position: fixed; */
+    /* bottom: 0; Stick to the bottom */
+    /* left: 50%; Move to the center */
+    /* transform: translateX(-50%); Adjust centering */
+    /* border-radius: 10px; Optional rounded corners */
+    /* padding: 10px; */
+    /* text-align: center; */
+  /* }  */
+
+  .footer-container {
+    width: 100%;
+    max-width: 410px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .custom-navbar {
+    width: 410px; /* Same as footer */
+    position: fixed;
+    top: 0; /* Stick to the top */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    z-index: 1030; /* Make sure it's above other elements */
+  }
+  .story-bar {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .story-bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }

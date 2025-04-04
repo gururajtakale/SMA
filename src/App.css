@@ -1,0 +1,52 @@
+/* 
+.profile-page {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .bio {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .post-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+   */
+
+   .profile-page {
+    max-width: 500px; /* Adjust width as needed */
+    margin: auto; /* Centers the profile */
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-pic {
+    width: 100px; /* Adjust for profile image size */
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .post-img {
+    width: 100%;
+    height: 120px; /* Ensures a grid-like appearance */
+    object-fit: cover;
+  }
+  
+  .bio {
+    font-size: 14px;
+    color: #555;
+  }
+  
